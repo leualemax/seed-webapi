@@ -1,4 +1,4 @@
 node_modules/
 .tmp/
 logs/
-config/persinal.js
+config/personal.js
