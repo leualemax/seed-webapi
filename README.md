@@ -26,6 +26,12 @@ module.exports = {
 		}
 };
 ```
+
+now run it with:
+```
+$ sails lift
+```
+
 save it on config/personal.js
 
 still more to come, find me at :
