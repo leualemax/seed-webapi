@@ -9,7 +9,7 @@ $ npm install
 after:
 
 create your personal config file
-
+save it on config/personal.js
 ```
 module.exports = {
 		database:{
@@ -35,7 +35,7 @@ test it with:
 ```
 $ npm test
 ```
-save it on config/personal.js
+
 
 still more to come, find me at :
 
