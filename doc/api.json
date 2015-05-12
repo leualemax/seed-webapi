@@ -1,0 +1,17 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "msgs",
+    "description": "Move your app forward with the msgs API",
+    "version": "1.0.0"
+  },
+  "host": "api.msgs.com",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "/v1",
+  "produces": [
+    "application/json"
+  ],
+  "paths": {}
+}

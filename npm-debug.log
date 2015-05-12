@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'passport-tvkontakte-token',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json msgs@0.1.0 No description
+5 warn package.json msgs@0.1.0 No repository field.
+6 warn package.json msgs@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'passport-tvkontakte-token', null ]
+9 verbose cache add name=undefined spec="passport-tvkontakte-token" args=["passport-tvkontakte-token",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'passport-tvkontakte-token',
+10 verbose parsed url   path: 'passport-tvkontakte-token',
+10 verbose parsed url   href: 'passport-tvkontakte-token' }
+11 silly lockFile bd04195a-passport-tvkontakte-token passport-tvkontakte-token
+12 verbose lock passport-tvkontakte-token /Users/borayu06/.npm/bd04195a-passport-tvkontakte-token.lock
+13 silly lockFile bd04195a-passport-tvkontakte-token passport-tvkontakte-token
+14 silly lockFile bd04195a-passport-tvkontakte-token passport-tvkontakte-token
+15 verbose addNamed [ 'passport-tvkontakte-token', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile ea162dac-passport-tvkontakte-token passport-tvkontakte-token@
+18 verbose lock passport-tvkontakte-token@ /Users/borayu06/.npm/ea162dac-passport-tvkontakte-token.lock
+19 silly addNameRange { name: 'passport-tvkontakte-token', range: '*', hasData: false }
+20 verbose request where is /passport-tvkontakte-token
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 0433dd6ecbe8a396
+23 verbose url raw /passport-tvkontakte-token
+24 verbose url resolving [ 'https://registry.npmjs.org/', './passport-tvkontakte-token' ]
+25 verbose url resolved https://registry.npmjs.org/passport-tvkontakte-token
+26 verbose request where is https://registry.npmjs.org/passport-tvkontakte-token
+27 info trying registry request attempt 1 at 15:22:56
+28 http GET https://registry.npmjs.org/passport-tvkontakte-token
+29 http 404 https://registry.npmjs.org/passport-tvkontakte-token
+30 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 verbose headers   'content-type': 'application/json',
+30 verbose headers   'cache-control': 'max-age=0',
+30 verbose headers   'content-length': '51',
+30 verbose headers   'accept-ranges': 'bytes',
+30 verbose headers   date: 'Mon, 11 May 2015 18:22:57 GMT',
+30 verbose headers   via: '1.1 varnish',
+30 verbose headers   age: '0',
+30 verbose headers   connection: 'keep-alive',
+30 verbose headers   'x-served-by': 'cache-iad2138-IAD',
+30 verbose headers   'x-cache': 'MISS',
+30 verbose headers   'x-cache-hits': '0',
+30 verbose headers   'x-timer': 'S1431368577.737079,VS0,VE90' }
+31 silly registry.get cb [ 404,
+31 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '51',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Mon, 11 May 2015 18:22:57 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-iad2138-IAD',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1431368577.737079,VS0,VE90' } ]
+32 silly lockFile ea162dac-passport-tvkontakte-token passport-tvkontakte-token@
+33 silly lockFile ea162dac-passport-tvkontakte-token passport-tvkontakte-token@
+34 error 404 404 Not Found: passport-tvkontakte-token
+34 error 404
+34 error 404 'passport-tvkontakte-token' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'msgs'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Darwin 14.0.0
+36 error command "node" "/usr/local/bin/npm" "install" "passport-tvkontakte-token" "--save"
+37 error cwd /Users/borayu06/Workspace/Projects/api
+38 error node -v v0.10.35
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]
