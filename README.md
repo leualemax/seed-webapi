@@ -1,4 +1,4 @@
-# SEED Restfull webapi with Sails.Js and Passport.js
+# SEED Restful api with Sails.Js and Passport.js
 
 created for fast development start.
 
