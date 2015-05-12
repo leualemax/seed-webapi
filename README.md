@@ -31,7 +31,10 @@ now run it with:
 ```
 $ sails lift
 ```
-
+test it with:
+```
+$ npm test
+```
 save it on config/personal.js
 
 still more to come, find me at :
